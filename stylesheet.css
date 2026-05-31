@@ -1,0 +1,3 @@
+.sidebar {
+    background-color: lightblue; width: 30%; display: flex; flex-direction: column; padding: 3px;
+}
