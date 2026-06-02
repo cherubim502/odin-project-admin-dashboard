@@ -9,11 +9,34 @@
 <body>
     <div style="display: flex; width: 100%;">
         <div id="sidebar" class="sidebar">
-            <div>icon</div>
-            <div>menu1</div>
-            <div>menu2</div>
+            <div class="sidebar-item">icon</div>
+            <div class="sidebar-item">
+                <div class="sidebar-subitem">home</div>
+                <div class="sidebar-subitem">profile</div>
+                <div class="sidebar-subitem">messages</div>
+                <div class="sidebar-subitem">history</div>
+                <div class="sidebar-subitem">tasks</div>
+                <div class="sidebar-subitem">communities</div>
+            </div>
+            <div class="sidebar-item">
+                <div class="sidebar-subitem">settings</div>
+                <div class="sidebar-subitem">support</div>
+                <div class="sidebar-subitem">privacy</div>
+            </div>
         </div>
-        <div id="main" style="border: 1px solid blue; flex: 1;">main</div>
+        <div id="main" class="main">
+            <div class="topbar">
+                <div>
+                    search bar
+                </div>
+                <div>
+                    hello
+                </div>
+            </div>
+            <div class="project-area">
+                project area
+            </div>
+        </div>
     </div>
 </body>
 </html>

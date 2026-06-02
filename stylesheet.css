@@ -1,3 +1,25 @@
 .sidebar {
-    background-color: lightblue; width: 30%; display: flex; flex-direction: column; padding: 3px;
+    background-color: royalblue;
+    width: 20%; display: flex; flex-direction: column; padding: 3px;
+}
+
+.sidebar-item {
+    border: 1px solid red;
+    margin: 5px;
+}
+
+.main {
+    border: 1px solid blue; flex: 1;
+}
+
+.topbar {
+    border: 1px solid green;
+}
+
+.project-area {
+    border: 1px solid red;
+}
+
+.sidebar-subitem {
+    border: 1px solid green;
 }
